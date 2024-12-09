@@ -2,4 +2,4 @@
   publish = ".next"
   command = "npm run build"
 [functions]
-   directory = "netlify/functions/codo"
+   directory = "netlify/functions/"
