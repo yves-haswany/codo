@@ -3,7 +3,7 @@ const fetch = require("node-fetch");
 exports.handler = async (event, context) => {
   try {
     // Replace with your API endpoint and Bearer token
-    const API_URL = "https://api.your-kwh-provider.com/v1/modules/moduleUuid/measuring-points/mpUuid/reads";
+    const API_URL = "https://api.develop.rve.ca/v1/modules/c667ff46-9730-425e-ad48-1e950691b3f9/measuring-points/71ef9476-3855-4a3f-8fc5-333cfbf9e898/reads?start=2024-10-16&end=2024-11-25";
     const BEARER_TOKEN = process.env.API_KEY; // Store API key securely in environment variables
 
     // Fetch data from the API
